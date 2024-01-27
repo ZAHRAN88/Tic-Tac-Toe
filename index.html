@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanaa VS Bahnasy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>بهنسي <span>vs</span> هناء</h1>
+        <div class="current-status" id="currentStatus">
+          <img src="img/hana-turn.png" alt="" id="currentHero">
+          &nbsp;
+          <p>'s turn</p>
+        </div>
+        <div class="board" id="board">
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+        </div>
+        <div class="game-end-overlay" id="gameEndOverlay">
+          <div class="winning-message" data-winning-message>
+            <p></p>
+          </div>
+          <div class="btn-container">
+            <button class="reset-button" id="resetButton">play again</button>
+          </div>
+        </div>
+      </div>
+    
+
+      <script src="main.js"></script>
+</body>
+</html>
